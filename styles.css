@@ -1,0 +1,253 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos de Cabeçalho */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p, footer a {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos Específicos por Página */
+
+/* Página Home */
+.home .hero {
+    background-image:("dog.png");
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.home .hero .btn {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Página Sobre Nós */
+.sobre .about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.sobre .about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sobre .about p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.sobre .about img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Página Serviços */
+.servicos .services {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.servicos .services h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.servicos .service-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.servicos .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.servicos .service-item p {
+    font-size: 1.1em;
+}
+
+.servicos .service-item img {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Página Eventos */
+.eventos .events {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.eventos .events h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.eventos .event-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.eventos .event-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.eventos .event-item p {
+    font-size: 1.1em;
+}
+
+.eventos .event-item img {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Página Contato */
+.contato .contact {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contato .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato .contact form div {
+    margin-bottom: 15px;
+}
+
+.contato .contact form label {
+    margin-right: 10px;
+}
+
+.contato .contact form input, 
+.contato .contact form textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contato .contact form button {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/*tamanho das fontes*/
+.p1{
+    font-size: 25px;
+    font-family: Roboto;
+    text-align: justify;
+}
+/*texto h1*/
+.h1{
+    font-size: 30px;
+    text-align: left;
+}
+/*div maior*/
+.dvm{
+    display: flex;
+}
+/*imagem do sidnei*/
+.img7{
+    
+    position: relative;
+    right: -590px;
+    display: flex;
+}
+/*h2*/
+.h2{
+    text-align: left;
+}
+
+.
